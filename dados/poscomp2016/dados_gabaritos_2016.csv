@@ -1,0 +1,141 @@
+COD CARGO,CARGO,QUESTAO,MATERIA,RESPOSTA,ASSINATURA ELETRONICA,TIPO GABARITO,CONCURSO,COD MATERIA,PESO QUESTAO,STATUS QUESTAO,TIPO PROVA APLICADA
+1,Mestrado/doutorado,1,Álgebra Linear,E,,D,394,3,1,1,1
+1,Mestrado/doutorado,2,Álgebra Linear,A,,D,394,3,1,1,1
+1,Mestrado/doutorado,3,Geometria Analítica,C,,D,394,4,1,1,1
+1,Mestrado/doutorado,4,Geometria Analítica,D,,D,394,4,1,1,1
+1,Mestrado/doutorado,5,Cálculo Diferencial Integral,A,,D,394,2,1,1,1
+1,Mestrado/doutorado,6,Cálculo Diferencial Integral,A,,D,394,2,1,1,1
+1,Mestrado/doutorado,7,Álgebra Linear,C,,D,394,3,1,1,1
+1,Mestrado/doutorado,8,Geometria Analítica,D,,D,394,4,1,1,1
+1,Mestrado/doutorado,9,Matemática Discreta,E,,D,394,1,1,1,1
+1,Mestrado/doutorado,10,Cálculo Diferencial Integral,C,,D,394,2,1,1,1
+1,Mestrado/doutorado,11,Lógica Matemática,A,,D,394,7,1,1,1
+1,Mestrado/doutorado,12,Lógica Matemática,E,,D,394,7,1,1,1
+1,Mestrado/doutorado,13,Análise Combinatória,D,,D,394,5,1,1,1
+1,Mestrado/doutorado,14,Matemática Discreta,D,,D,394,1,1,1,1
+1,Mestrado/doutorado,15,Lógica Matemática,D,,D,394,7,1,1,1
+1,Mestrado/doutorado,16,Matemática Discreta,D,,D,394,1,1,1,1
+1,Mestrado/doutorado,17,Análise Combinatória,E,,D,394,5,1,1,1
+1,Mestrado/doutorado,18,Probabilidade E Estatística,E,,D,394,6,1,1,1
+1,Mestrado/doutorado,19,Análise Combinatória,B,,D,394,5,1,1,1
+1,Mestrado/doutorado,20,Probabilidade E Estatística,B,,D,394,6,1,1,1
+1,Mestrado/doutorado,21,Análise de Algoritmos,A,,D,394,11,1,1,1
+1,Mestrado/doutorado,22,Análise de Algoritmos,D,,D,394,11,1,1,1
+1,Mestrado/doutorado,23,Algoritmos E Estruturas de Dados,E,,D,394,14,1,1,1
+1,Mestrado/doutorado,24,Algoritmos E Estruturas de Dados,E,,D,394,14,1,1,1
+1,Mestrado/doutorado,25,Análise de Algoritmos,A,,D,394,11,1,1,1
+1,Mestrado/doutorado,26,Algoritmos E Estruturas de Dados,D,,D,394,14,1,1,1
+1,Mestrado/doutorado,27,Linguagens de Programação,A,,D,394,15,1,1,1
+1,Mestrado/doutorado,28,Linguagens de Programação,C,,D,394,15,1,1,1
+1,Mestrado/doutorado,29,Organização de Arquivos E Dados,D,,D,394,8,1,1,1
+1,Mestrado/doutorado,30,Técnicas de Programação,*,,D,394,9,1,2,1
+1,Mestrado/doutorado,31,Linguagens de Programação,B,,D,394,15,1,1,1
+1,Mestrado/doutorado,32,Teoria dos Grafos,A,,D,394,12,1,1,1
+1,Mestrado/doutorado,33,Técnicas de Programação,B,,D,394,9,1,1,1
+1,Mestrado/doutorado,34,Organização de Arquivos E Dados,D,,D,394,8,1,1,1
+1,Mestrado/doutorado,35,Organização de Arquivos E Dados,E,,D,394,8,1,1,1
+1,Mestrado/doutorado,36,Teoria dos Grafos,A,,D,394,12,1,1,1
+1,Mestrado/doutorado,37,Teoria dos Grafos,A,,D,394,12,1,1,1
+1,Mestrado/doutorado,38,Técnicas de Programação,*,,D,394,9,1,2,1
+1,Mestrado/doutorado,39,"Linguagens Formais, Autômatos E Computabilidade",D,,D,394,13,1,1,1
+1,Mestrado/doutorado,40,"Linguagens Formais, Autômatos E Computabilidade",*,,D,394,13,1,2,1
+1,Mestrado/doutorado,41,"Linguagens Formais, Autômatos E Computabilidade",B,,D,394,13,1,1,1
+1,Mestrado/doutorado,42,Circuitos Digitais,B,,D,394,10,1,1,1
+1,Mestrado/doutorado,43,Circuitos Digitais,A,,D,394,10,1,1,1
+1,Mestrado/doutorado,44,Arquitetura E Organização de Computadores,E,,D,394,17,1,1,1
+1,Mestrado/doutorado,45,Sistemas Operacionais,B,,D,394,16,1,1,1
+1,Mestrado/doutorado,46,Sistemas Operacionais,A,,D,394,16,1,1,1
+1,Mestrado/doutorado,47,Circuitos Digitais,*,,D,394,10,1,2,1
+1,Mestrado/doutorado,48,Arquitetura E Organização de Computadores,C,,D,394,17,1,1,1
+1,Mestrado/doutorado,49,Arquitetura E Organização de Computadores,B,,D,394,17,1,1,1
+1,Mestrado/doutorado,50,Sistemas Operacionais,D,,D,394,16,1,1,1
+1,Mestrado/doutorado,51,Banco de Dados,B,,D,394,25,1,1,1
+1,Mestrado/doutorado,52,Banco de Dados,A,,D,394,25,1,1,1
+1,Mestrado/doutorado,53,Engenharia de Software,A,,D,394,21,1,1,1
+1,Mestrado/doutorado,54,Rede de Computadores,E,,D,394,18,1,1,1
+1,Mestrado/doutorado,55,Banco de Dados,C,,D,394,25,1,1,1
+1,Mestrado/doutorado,56,Engenharia de Software,A,,D,394,21,1,1,1
+1,Mestrado/doutorado,57,Computação Gráfica,A,,D,394,19,1,1,1
+1,Mestrado/doutorado,58,Computação Gráfica,E,,D,394,19,1,1,1
+1,Mestrado/doutorado,59,Processamento de Imagens,C,,D,394,24,1,1,1
+1,Mestrado/doutorado,60,Rede de Computadores,A,,D,394,18,1,1,1
+1,Mestrado/doutorado,61,Processamento de Imagens,D,,D,394,24,1,1,1
+1,Mestrado/doutorado,62,Sistemas Distribuídos,A,,D,394,22,1,1,1
+1,Mestrado/doutorado,63,Compiladores,D,,D,394,23,1,1,1
+1,Mestrado/doutorado,64,Sistemas Distribuídos,A,,D,394,22,1,1,1
+1,Mestrado/doutorado,65,Rede de Computadores,E,,D,394,18,1,1,1
+1,Mestrado/doutorado,66,Inteligência Artificial,C,,D,394,20,1,1,1
+1,Mestrado/doutorado,67,Sistemas Distribuídos,A,,D,394,22,1,1,1
+1,Mestrado/doutorado,68,Compiladores,C,,D,394,23,1,1,1
+1,Mestrado/doutorado,69,Inteligência Artificial,B,,D,394,20,1,1,1
+1,Mestrado/doutorado,70,Engenharia de Software,A,,D,394,21,1,1,1
+2,Autoavaliação,1,Álgebra Linear,E,,D,394,3,1,1,1
+2,Autoavaliação,2,Álgebra Linear,A,,D,394,3,1,1,1
+2,Autoavaliação,3,Geometria Analítica,C,,D,394,4,1,1,1
+2,Autoavaliação,4,Geometria Analítica,D,,D,394,4,1,1,1
+2,Autoavaliação,5,Cálculo Diferencial Integral,A,,D,394,2,1,1,1
+2,Autoavaliação,6,Cálculo Diferencial Integral,A,,D,394,2,1,1,1
+2,Autoavaliação,7,Álgebra Linear,C,,D,394,3,1,1,1
+2,Autoavaliação,8,Geometria Analítica,D,,D,394,4,1,1,1
+2,Autoavaliação,9,Matemática Discreta,E,,D,394,1,1,1,1
+2,Autoavaliação,10,Cálculo Diferencial Integral,C,,D,394,2,1,1,1
+2,Autoavaliação,11,Lógica Matemática,A,,D,394,7,1,1,1
+2,Autoavaliação,12,Lógica Matemática,E,,D,394,7,1,1,1
+2,Autoavaliação,13,Análise Combinatória,D,,D,394,5,1,1,1
+2,Autoavaliação,14,Matemática Discreta,D,,D,394,1,1,1,1
+2,Autoavaliação,15,Lógica Matemática,D,,D,394,7,1,1,1
+2,Autoavaliação,16,Matemática Discreta,D,,D,394,1,1,1,1
+2,Autoavaliação,17,Análise Combinatória,E,,D,394,5,1,1,1
+2,Autoavaliação,18,Probabilidade E Estatística,E,,D,394,6,1,1,1
+2,Autoavaliação,19,Análise Combinatória,B,,D,394,5,1,1,1
+2,Autoavaliação,20,Probabilidade E Estatística,B,,D,394,6,1,1,1
+2,Autoavaliação,21,Análise de Algoritmos,A,,D,394,11,1,1,1
+2,Autoavaliação,22,Análise de Algoritmos,D,,D,394,11,1,1,1
+2,Autoavaliação,23,Algoritmos E Estruturas de Dados,E,,D,394,14,1,1,1
+2,Autoavaliação,24,Algoritmos E Estruturas de Dados,E,,D,394,14,1,1,1
+2,Autoavaliação,25,Análise de Algoritmos,A,,D,394,11,1,1,1
+2,Autoavaliação,26,Algoritmos E Estruturas de Dados,D,,D,394,14,1,1,1
+2,Autoavaliação,27,Linguagens de Programação,A,,D,394,15,1,1,1
+2,Autoavaliação,28,Linguagens de Programação,C,,D,394,15,1,1,1
+2,Autoavaliação,29,Organização de Arquivos E Dados,D,,D,394,8,1,1,1
+2,Autoavaliação,30,Técnicas de Programação,*,,D,394,9,1,2,1
+2,Autoavaliação,31,Linguagens de Programação,B,,D,394,15,1,1,1
+2,Autoavaliação,32,Teoria dos Grafos,A,,D,394,12,1,1,1
+2,Autoavaliação,33,Técnicas de Programação,B,,D,394,9,1,1,1
+2,Autoavaliação,34,Organização de Arquivos E Dados,D,,D,394,8,1,1,1
+2,Autoavaliação,35,Organização de Arquivos E Dados,E,,D,394,8,1,1,1
+2,Autoavaliação,36,Teoria dos Grafos,A,,D,394,12,1,1,1
+2,Autoavaliação,37,Teoria dos Grafos,A,,D,394,12,1,1,1
+2,Autoavaliação,38,Técnicas de Programação,*,,D,394,9,1,2,1
+2,Autoavaliação,39,"Linguagens Formais, Autômatos E Computabilidade",D,,D,394,13,1,1,1
+2,Autoavaliação,40,"Linguagens Formais, Autômatos E Computabilidade",*,,D,394,13,1,2,1
+2,Autoavaliação,41,"Linguagens Formais, Autômatos E Computabilidade",B,,D,394,13,1,1,1
+2,Autoavaliação,42,Circuitos Digitais,B,,D,394,10,1,1,1
+2,Autoavaliação,43,Circuitos Digitais,A,,D,394,10,1,1,1
+2,Autoavaliação,44,Arquitetura E Organização de Computadores,E,,D,394,17,1,1,1
+2,Autoavaliação,45,Sistemas Operacionais,B,,D,394,16,1,1,1
+2,Autoavaliação,46,Sistemas Operacionais,A,,D,394,16,1,1,1
+2,Autoavaliação,47,Circuitos Digitais,*,,D,394,10,1,2,1
+2,Autoavaliação,48,Arquitetura E Organização de Computadores,C,,D,394,17,1,1,1
+2,Autoavaliação,49,Arquitetura E Organização de Computadores,B,,D,394,17,1,1,1
+2,Autoavaliação,50,Sistemas Operacionais,D,,D,394,16,1,1,1
+2,Autoavaliação,51,Banco de Dados,B,,D,394,25,1,1,1
+2,Autoavaliação,52,Banco de Dados,A,,D,394,25,1,1,1
+2,Autoavaliação,53,Engenharia de Software,A,,D,394,21,1,1,1
+2,Autoavaliação,54,Rede de Computadores,E,,D,394,18,1,1,1
+2,Autoavaliação,55,Banco de Dados,C,,D,394,25,1,1,1
+2,Autoavaliação,56,Engenharia de Software,A,,D,394,21,1,1,1
+2,Autoavaliação,57,Computação Gráfica,A,,D,394,19,1,1,1
+2,Autoavaliação,58,Computação Gráfica,E,,D,394,19,1,1,1
+2,Autoavaliação,59,Processamento de Imagens,C,,D,394,24,1,1,1
+2,Autoavaliação,60,Rede de Computadores,A,,D,394,18,1,1,1
+2,Autoavaliação,61,Processamento de Imagens,D,,D,394,24,1,1,1
+2,Autoavaliação,62,Sistemas Distribuídos,A,,D,394,22,1,1,1
+2,Autoavaliação,63,Compiladores,D,,D,394,23,1,1,1
+2,Autoavaliação,64,Sistemas Distribuídos,A,,D,394,22,1,1,1
+2,Autoavaliação,65,Rede de Computadores,E,,D,394,18,1,1,1
+2,Autoavaliação,66,Inteligência Artificial,C,,D,394,20,1,1,1
+2,Autoavaliação,67,Sistemas Distribuídos,A,,D,394,22,1,1,1
+2,Autoavaliação,68,Compiladores,C,,D,394,23,1,1,1
+2,Autoavaliação,69,Inteligência Artificial,B,,D,394,20,1,1,1
+2,Autoavaliação,70,Engenharia de Software,A,,D,394,21,1,1,1
