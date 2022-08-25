@@ -1,71 +1,71 @@
-,COD CARGO,CARGO,QUESTAO,MATERIA,RESPOSTA,ASSINATURA ELETRONICA,TIPO GABARITO,CONCURSO,COD MATERIA,PESO QUESTAO,STATUS QUESTAO,TIPO PROVA APLICADA
-0,1,Mestrado/doutorado,1,Álgebra Linear,E,,D,394,3,1,1,1
-1,1,Mestrado/doutorado,2,Álgebra Linear,A,,D,394,3,1,1,1
-2,1,Mestrado/doutorado,3,Geometria Analítica,C,,D,394,4,1,1,1
-3,1,Mestrado/doutorado,4,Geometria Analítica,D,,D,394,4,1,1,1
-4,1,Mestrado/doutorado,5,Cálculo Diferencial Integral,A,,D,394,2,1,1,1
-5,1,Mestrado/doutorado,6,Cálculo Diferencial Integral,A,,D,394,2,1,1,1
-6,1,Mestrado/doutorado,7,Álgebra Linear,C,,D,394,3,1,1,1
-7,1,Mestrado/doutorado,8,Geometria Analítica,D,,D,394,4,1,1,1
-8,1,Mestrado/doutorado,9,Matemática Discreta,E,,D,394,1,1,1,1
-9,1,Mestrado/doutorado,10,Cálculo Diferencial Integral,C,,D,394,2,1,1,1
-10,1,Mestrado/doutorado,11,Lógica Matemática,A,,D,394,7,1,1,1
-11,1,Mestrado/doutorado,12,Lógica Matemática,E,,D,394,7,1,1,1
-12,1,Mestrado/doutorado,13,Análise Combinatória,D,,D,394,5,1,1,1
-13,1,Mestrado/doutorado,14,Matemática Discreta,D,,D,394,1,1,1,1
-14,1,Mestrado/doutorado,15,Lógica Matemática,D,,D,394,7,1,1,1
-15,1,Mestrado/doutorado,16,Matemática Discreta,D,,D,394,1,1,1,1
-16,1,Mestrado/doutorado,17,Análise Combinatória,E,,D,394,5,1,1,1
-17,1,Mestrado/doutorado,18,Probabilidade E Estatística,E,,D,394,6,1,1,1
-18,1,Mestrado/doutorado,19,Análise Combinatória,B,,D,394,5,1,1,1
-19,1,Mestrado/doutorado,20,Probabilidade E Estatística,B,,D,394,6,1,1,1
-20,1,Mestrado/doutorado,21,Análise de Algoritmos,A,,D,394,11,1,1,1
-21,1,Mestrado/doutorado,22,Análise de Algoritmos,D,,D,394,11,1,1,1
-22,1,Mestrado/doutorado,23,Algoritmos E Estruturas de Dados,E,,D,394,14,1,1,1
-23,1,Mestrado/doutorado,24,Algoritmos E Estruturas de Dados,E,,D,394,14,1,1,1
-24,1,Mestrado/doutorado,25,Análise de Algoritmos,A,,D,394,11,1,1,1
-25,1,Mestrado/doutorado,26,Algoritmos E Estruturas de Dados,D,,D,394,14,1,1,1
-26,1,Mestrado/doutorado,27,Linguagens de Programação,A,,D,394,15,1,1,1
-27,1,Mestrado/doutorado,28,Linguagens de Programação,C,,D,394,15,1,1,1
-28,1,Mestrado/doutorado,29,Organização de Arquivos E Dados,D,,D,394,8,1,1,1
-29,1,Mestrado/doutorado,30,Técnicas de Programação,*,,D,394,9,1,2,1
-30,1,Mestrado/doutorado,31,Linguagens de Programação,B,,D,394,15,1,1,1
-31,1,Mestrado/doutorado,32,Teoria dos Grafos,A,,D,394,12,1,1,1
-32,1,Mestrado/doutorado,33,Técnicas de Programação,B,,D,394,9,1,1,1
-33,1,Mestrado/doutorado,34,Organização de Arquivos E Dados,D,,D,394,8,1,1,1
-34,1,Mestrado/doutorado,35,Organização de Arquivos E Dados,E,,D,394,8,1,1,1
-35,1,Mestrado/doutorado,36,Teoria dos Grafos,A,,D,394,12,1,1,1
-36,1,Mestrado/doutorado,37,Teoria dos Grafos,A,,D,394,12,1,1,1
-37,1,Mestrado/doutorado,38,Técnicas de Programação,*,,D,394,9,1,2,1
-38,1,Mestrado/doutorado,39,"Linguagens Formais, Autômatos E Computabilidade",D,,D,394,13,1,1,1
-39,1,Mestrado/doutorado,40,"Linguagens Formais, Autômatos E Computabilidade",*,,D,394,13,1,2,1
-40,1,Mestrado/doutorado,41,"Linguagens Formais, Autômatos E Computabilidade",B,,D,394,13,1,1,1
-41,1,Mestrado/doutorado,42,Circuitos Digitais,B,,D,394,10,1,1,1
-42,1,Mestrado/doutorado,43,Circuitos Digitais,A,,D,394,10,1,1,1
-43,1,Mestrado/doutorado,44,Arquitetura E Organização de Computadores,E,,D,394,17,1,1,1
-44,1,Mestrado/doutorado,45,Sistemas Operacionais,B,,D,394,16,1,1,1
-45,1,Mestrado/doutorado,46,Sistemas Operacionais,A,,D,394,16,1,1,1
-46,1,Mestrado/doutorado,47,Circuitos Digitais,*,,D,394,10,1,2,1
-47,1,Mestrado/doutorado,48,Arquitetura E Organização de Computadores,C,,D,394,17,1,1,1
-48,1,Mestrado/doutorado,49,Arquitetura E Organização de Computadores,B,,D,394,17,1,1,1
-49,1,Mestrado/doutorado,50,Sistemas Operacionais,D,,D,394,16,1,1,1
-50,1,Mestrado/doutorado,51,Banco de Dados,B,,D,394,25,1,1,1
-51,1,Mestrado/doutorado,52,Banco de Dados,A,,D,394,25,1,1,1
-52,1,Mestrado/doutorado,53,Engenharia de Software,A,,D,394,21,1,1,1
-53,1,Mestrado/doutorado,54,Rede de Computadores,E,,D,394,18,1,1,1
-54,1,Mestrado/doutorado,55,Banco de Dados,C,,D,394,25,1,1,1
-55,1,Mestrado/doutorado,56,Engenharia de Software,A,,D,394,21,1,1,1
-56,1,Mestrado/doutorado,57,Computação Gráfica,A,,D,394,19,1,1,1
-57,1,Mestrado/doutorado,58,Computação Gráfica,E,,D,394,19,1,1,1
-58,1,Mestrado/doutorado,59,Processamento de Imagens,C,,D,394,24,1,1,1
-59,1,Mestrado/doutorado,60,Rede de Computadores,A,,D,394,18,1,1,1
-60,1,Mestrado/doutorado,61,Processamento de Imagens,D,,D,394,24,1,1,1
-61,1,Mestrado/doutorado,62,Sistemas Distribuídos,A,,D,394,22,1,1,1
-62,1,Mestrado/doutorado,63,Compiladores,D,,D,394,23,1,1,1
-63,1,Mestrado/doutorado,64,Sistemas Distribuídos,A,,D,394,22,1,1,1
-64,1,Mestrado/doutorado,65,Rede de Computadores,E,,D,394,18,1,1,1
-65,1,Mestrado/doutorado,66,Inteligência Artificial,C,,D,394,20,1,1,1
-66,1,Mestrado/doutorado,67,Sistemas Distribuídos,A,,D,394,22,1,1,1
-67,1,Mestrado/doutorado,68,Compiladores,C,,D,394,23,1,1,1
-68,1,Mestrado/doutorado,69,Inteligência Artificial,B,,D,394,20,1,1,1
-69,1,Mestrado/doutorado,70,Engenharia de Software,A,,D,394,21,1,1,1
+,COD CARGO,CARGO,QUESTAO,MATERIA,RESPOSTA,COD MATERIA,PESO QUESTAO,STATUS QUESTAO,TIPO PROVA APLICADA
+0,1,Mestrado/doutorado,1,Álgebra Linear,E,3,1,1,1
+1,1,Mestrado/doutorado,2,Álgebra Linear,A,3,1,1,1
+2,1,Mestrado/doutorado,3,Geometria Analítica,C,4,1,1,1
+3,1,Mestrado/doutorado,4,Geometria Analítica,D,4,1,1,1
+4,1,Mestrado/doutorado,5,Cálculo Diferencial Integral,A,2,1,1,1
+5,1,Mestrado/doutorado,6,Cálculo Diferencial Integral,A,2,1,1,1
+6,1,Mestrado/doutorado,7,Álgebra Linear,C,3,1,1,1
+7,1,Mestrado/doutorado,8,Geometria Analítica,D,4,1,1,1
+8,1,Mestrado/doutorado,9,Matemática Discreta,E,1,1,1,1
+9,1,Mestrado/doutorado,10,Cálculo Diferencial Integral,C,2,1,1,1
+10,1,Mestrado/doutorado,11,Lógica Matemática,A,7,1,1,1
+11,1,Mestrado/doutorado,12,Lógica Matemática,E,7,1,1,1
+12,1,Mestrado/doutorado,13,Análise Combinatória,D,5,1,1,1
+13,1,Mestrado/doutorado,14,Matemática Discreta,D,1,1,1,1
+14,1,Mestrado/doutorado,15,Lógica Matemática,D,7,1,1,1
+15,1,Mestrado/doutorado,16,Matemática Discreta,D,1,1,1,1
+16,1,Mestrado/doutorado,17,Análise Combinatória,E,5,1,1,1
+17,1,Mestrado/doutorado,18,Probabilidade E Estatística,E,6,1,1,1
+18,1,Mestrado/doutorado,19,Análise Combinatória,B,5,1,1,1
+19,1,Mestrado/doutorado,20,Probabilidade E Estatística,B,6,1,1,1
+20,1,Mestrado/doutorado,21,Análise de Algoritmos,A,11,1,1,1
+21,1,Mestrado/doutorado,22,Análise de Algoritmos,D,11,1,1,1
+22,1,Mestrado/doutorado,23,Algoritmos E Estruturas de Dados,E,14,1,1,1
+23,1,Mestrado/doutorado,24,Algoritmos E Estruturas de Dados,E,14,1,1,1
+24,1,Mestrado/doutorado,25,Análise de Algoritmos,A,11,1,1,1
+25,1,Mestrado/doutorado,26,Algoritmos E Estruturas de Dados,D,14,1,1,1
+26,1,Mestrado/doutorado,27,Linguagens de Programação,A,15,1,1,1
+27,1,Mestrado/doutorado,28,Linguagens de Programação,C,15,1,1,1
+28,1,Mestrado/doutorado,29,Organização de Arquivos E Dados,D,8,1,1,1
+29,1,Mestrado/doutorado,30,Técnicas de Programação,*,9,1,2,1
+30,1,Mestrado/doutorado,31,Linguagens de Programação,B,15,1,1,1
+31,1,Mestrado/doutorado,32,Teoria dos Grafos,A,12,1,1,1
+32,1,Mestrado/doutorado,33,Técnicas de Programação,B,9,1,1,1
+33,1,Mestrado/doutorado,34,Organização de Arquivos E Dados,D,8,1,1,1
+34,1,Mestrado/doutorado,35,Organização de Arquivos E Dados,E,8,1,1,1
+35,1,Mestrado/doutorado,36,Teoria dos Grafos,A,12,1,1,1
+36,1,Mestrado/doutorado,37,Teoria dos Grafos,A,12,1,1,1
+37,1,Mestrado/doutorado,38,Técnicas de Programação,*,9,1,2,1
+38,1,Mestrado/doutorado,39,"Linguagens Formais, Autômatos E Computabilidade",D,13,1,1,1
+39,1,Mestrado/doutorado,40,"Linguagens Formais, Autômatos E Computabilidade",*,13,1,2,1
+40,1,Mestrado/doutorado,41,"Linguagens Formais, Autômatos E Computabilidade",B,13,1,1,1
+41,1,Mestrado/doutorado,42,Circuitos Digitais,B,10,1,1,1
+42,1,Mestrado/doutorado,43,Circuitos Digitais,A,10,1,1,1
+43,1,Mestrado/doutorado,44,Arquitetura E Organização de Computadores,E,17,1,1,1
+44,1,Mestrado/doutorado,45,Sistemas Operacionais,B,16,1,1,1
+45,1,Mestrado/doutorado,46,Sistemas Operacionais,A,16,1,1,1
+46,1,Mestrado/doutorado,47,Circuitos Digitais,*,10,1,2,1
+47,1,Mestrado/doutorado,48,Arquitetura E Organização de Computadores,C,17,1,1,1
+48,1,Mestrado/doutorado,49,Arquitetura E Organização de Computadores,B,17,1,1,1
+49,1,Mestrado/doutorado,50,Sistemas Operacionais,D,16,1,1,1
+50,1,Mestrado/doutorado,51,Banco de Dados,B,25,1,1,1
+51,1,Mestrado/doutorado,52,Banco de Dados,A,25,1,1,1
+52,1,Mestrado/doutorado,53,Engenharia de Software,A,21,1,1,1
+53,1,Mestrado/doutorado,54,Rede de Computadores,E,18,1,1,1
+54,1,Mestrado/doutorado,55,Banco de Dados,C,25,1,1,1
+55,1,Mestrado/doutorado,56,Engenharia de Software,A,21,1,1,1
+56,1,Mestrado/doutorado,57,Computação Gráfica,A,19,1,1,1
+57,1,Mestrado/doutorado,58,Computação Gráfica,E,19,1,1,1
+58,1,Mestrado/doutorado,59,Processamento de Imagens,C,24,1,1,1
+59,1,Mestrado/doutorado,60,Rede de Computadores,A,18,1,1,1
+60,1,Mestrado/doutorado,61,Processamento de Imagens,D,24,1,1,1
+61,1,Mestrado/doutorado,62,Sistemas Distribuídos,A,22,1,1,1
+62,1,Mestrado/doutorado,63,Compiladores,D,23,1,1,1
+63,1,Mestrado/doutorado,64,Sistemas Distribuídos,A,22,1,1,1
+64,1,Mestrado/doutorado,65,Rede de Computadores,E,18,1,1,1
+65,1,Mestrado/doutorado,66,Inteligência Artificial,C,20,1,1,1
+66,1,Mestrado/doutorado,67,Sistemas Distribuídos,A,22,1,1,1
+67,1,Mestrado/doutorado,68,Compiladores,C,23,1,1,1
+68,1,Mestrado/doutorado,69,Inteligência Artificial,B,20,1,1,1
+69,1,Mestrado/doutorado,70,Engenharia de Software,A,21,1,1,1
