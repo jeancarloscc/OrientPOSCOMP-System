@@ -1,0 +1,28 @@
+Estado	Especialidades
+São Paulo	engenharia de software: 213, inteligência artificial: 153, computação aplicada: 119, sistemas computacionais complexos: 95
+Pará	engenharia de software: 129, inteligência artificial: 88, redes de comunicações: 46, gestão da informação: 32
+Goiás	engenharia de software: 102, sistemas de computação: 47, inteligência artificial: 41, informática e educação: 17
+Rio Grande do Norte	tecnologias aplicadas educação: 21, engenharia de software: 17, otimização e inteligência: 13, redes de comunicações: 8
+Paraná	inteligência artificial: 101, engenharia de software: 81, sistemas de informação: 52, tecnologia da informação: 51
+Pernambuco	engenharia de software: 7, visão computacional: 5, banco de dados: 2, computação aplicada: 2
+Rio de Janeiro	engenharia de software: 13, inteligência artificial: 12, metodologia e técnicas: 7, sistemas de computação: 7
+Ceará	ciência computacional: 87, sistemas de informação: 76, engenharia de software: 28, sistemas de computação: 15
+Rio Grande do Sul	engenharia de software: 67, inteligência artificial: 62, computação aplicada: 47, ciência de dados: 36
+Mato Grosso do Sul	engenharia de software: 77, inteligência artificial: 26, sistemas de informação: 19, sistemas de computação: 17
+Minas Gerais	inteligência artificial: 138, engenharia de software: 102, banco de dados: 97, sistemas de computação: 53
+Paraíba	engenharia de software: 105, sistemas de computação: 67, redes de computadores: 44, sistemas de informação: 42
+Piauí	sistemas de computação: 91, computação aplicada: 55, engenharia de software: 13, sistemas de informação: 10
+Maranhão	arquitetura de sistemas: 64, modelagem computacional: 36, sistemas de computação: 22, computação aplicada: 11
+Amazonas	sistemas embarcados: 14, inteligência artificial: 12, banco de dados: 5, visão computacional: 4
+Mato Grosso	engenharia de software: 26, inteligência artificial: 12, redes de computadores: 6, banco de dados: 5
+Sergipe	engenharia de software: 26, computação inteligente: 12, sistemas de informação: 5, redes de computadores: 4
+Alagoas	engenharia de software: 48, visão computacional: 15, modelos computacionais: 4, aprendizado de máquina: 3
+Santa Catarina	inteligência artificial: 89, engenharia de software: 65, banco de dados: 32, redes de computadores: 30
+Bahia	engenharia de software: 27, computação aplicada: 5, visão computacional: 5, inteligência artificial: 3
+Distrito Federal	sistemas de computação: 7, engenharia de software: 6, fundamentos e métodos: 3, sistemas distribuídos: 2
+Espírito Santo	sistemas de informação: 94, inteligência artificial: 43, redes de computadores: 29, computação de alto: 14
+Tocantins	inteligência artificial: 6, engenharia de software: 5, ciência da computação: 2, ciência dos dados: 2
+Amapá	engenharia de software: 5, redes de computadores: 2, ciência dos dados: 1, inteligência artificial: 1
+Acre	banco de dados: 1, inteligência artificial: 1, tecnologia da informação: 1
+Roraima	inteligência artificial: 3, sistemas embarcados: 2
+Rondônia	banco de dados: 2, inteligência artificial: 2, mineração de dados: 2, visão computacional: 2
