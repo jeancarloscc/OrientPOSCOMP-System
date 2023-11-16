@@ -4,7 +4,8 @@ import seaborn as sns
 
 
 def scatter3D_plot(dataframe, atributos, encoded_specialties, figsize=(12, 10), fontsize=12, save_path=None):
-    sns.set_theme(style="whitegrid")
+    sns.set_theme(style="white")
+    sns.set_palette(paleta)
     
     fig = plt.figure(figsize=figsize)
     ax = fig.add_subplot(111, projection='3d')
@@ -26,9 +27,9 @@ def scatter3D_plot(dataframe, atributos, encoded_specialties, figsize=(12, 10), 
 
     plt.show()
     
-
-def barplot_view(dataframe, x, y, hue=None, fontsize=14, save_path=None, figsize=(8, 5), paleta=None, title_legend='', xlabel='',ylabel=''):
-    sns.set_style(style="ticks")
+paleta = ["#E06141", "#4169E0"]
+def barplot_view(dataframe, x, y, hue=None, fontsize=14, save_path=None, figsize=(8, 5), paleta=paleta, title_legend='', xlabel='',ylabel=''):
+    sns.set_theme(style="white")
 
     sns.set_palette(paleta)
 
@@ -52,5 +53,54 @@ def barplot_view(dataframe, x, y, hue=None, fontsize=14, save_path=None, figsize
     plt.tight_layout()
 
     plt.show();
+
+def histplot(dataframe, x, kde=False, bins=0, save_path=None):
+    sns.set_style(style="white")
+    sns.histplot(data=dataframe, x=x, bins=bins, kde=kde)
+    plt.tight_layout()
+
+    if save_path is not None:
+        plt.savefig(save_path, dpi=600, bbox_inches='tight')
+    
+    plt.show()
+
+def distplot(dataframe, x, kde=False):
+    sns.distplot(df["sepal_length"],
+             kde=True,
+             kde_kws={"color": "g", "alpha": 0.3, "linewidth": 5, "shade": True})
+    plt.show();
+
+def plot_top_especialidades_por_sexo(data, sexo, top_n=10, save_path=None):
+    genero_map = {1: 'Masculino', 0: 'Feminino'}
+    
+    data_sexo = data[data['SEXO'] == sexo]
+
+    counts_esp = data_sexo['ESPECIALIDADE'].value_counts().reset_index()
+    counts_esp.columns = ['ESPECIALIDADE', 'counts']
+
+    top_especialidades = counts_esp.head(top_n)
+
+    plt.figure(figsize=(10, 6))
+
+    sns.barplot(data=top_especialidades, x='counts', y='ESPECIALIDADE', color='blue')
+
+    for p in plt.gca().patches:
+        plt.gca().annotate(format(p.get_width(), '.0f'), (p.get_width(), p.get_y() + p.get_height() / 2),
+                           ha='left', va='center', xytext=(5, 0), textcoords='offset points', fontsize=20)
+
+    
+    plt.xlabel('')
+    plt.yticks(fontsize=20)
+    plt.ylabel('')
+    plt.tight_layout() 
+    
+    # plt.title(f'Top {top_n} Especialidades - {genero_map.get(sexo, "Desconhecido")}')
+    sns.despine()
+    
+    if save_path:
+        plt.savefig(save_path, dpi=600, bbox_inches='tight')
+        
+    plt.show()
+
     
 
