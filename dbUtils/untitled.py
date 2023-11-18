@@ -1,21 +1,16 @@
 import firebase_admin
 from firebase_admin import credentials, firestore
+import pandas as pd
+import asyncio
+import nest_asyncio
+from concurrent.futures import ProcessPoolExecutor
 
-# Carregar credenciais
-cred = credentials.Certificate("Documentos/GitHub/project_dataScience_POSCOMP/dbUtils/poscomp-project-firebase-adminsdk-i8jn5-5d70fb0009.json")
-firebase_admin.initialize_app(cred)
+class FirebaseBase:
 
-# Referência para o Firestore
-db = firestore.client()
+    def __
+    # Inicialize o SDK do Firebase
+    cred = credentials.Certificate("poscomp_db.json")
+    firebase_admin.initialize_app(cred)
 
-# Referência para a coleção
-collection_ref = db.collection('nome_da_colecao')
-
-# Adicionar documento
-doc_ref = collection_ref.add({'chave': 'valor'})
-print(f'Documento adicionado com ID: {doc_ref.id}')
-
-# Recuperar dados
-docs = collection_ref.stream()
-for doc in docs:
-    print(f'{doc.id} => {doc.to_dict()}')
+    # Inicialize o Firestore
+    db = firestore.client()
