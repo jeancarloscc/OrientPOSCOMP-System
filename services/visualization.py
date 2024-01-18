@@ -8,34 +8,48 @@ class Visualizacao:
         self.paleta = ["#E06141", "#4169E0"]
         sns.set_palette(self.paleta)
         
-    def scatter3D_plot(self, dataframe, atributos, encoded_specialties, figsize=(12, 10), fontsize=12, save_path=None):
+    def scatter3D_plot(self, dataframe, atributos, hue, figsize=(12, 10), fontsize=12, title_legend='', legend_mapping=None, save_path=None,title='Scatter 3D Plot'):
         sns.set_theme(style="white")
-        sns.set_palette(self.paleta)
-        
-        fig = plt.figure(figsize=figsize)
-        ax = fig.add_subplot(111, projection='3d')
-        
-        ax.scatter3D(dataframe[atributos[0]], dataframe[atributos[1]], dataframe[atributos[2]], 
-                     c=encoded_specialties, cmap='seismic')
     
+        # Criar figura e eixos 3D
+        fig, ax = plt.subplots(figsize=figsize, subplot_kw={'projection': '3d'})
+    
+        # Plotagem do gráfico de dispersão 3D com cores distintas para cada grupo
+        scatter = ax.scatter3D(dataframe[atributos[0]], dataframe[atributos[1]], dataframe[atributos[2]],
+                               c=dataframe[hue], cmap='seismic', label=dataframe[hue].unique())
+    
+        # Rótulos dos eixos
         ax.set_xlabel(atributos[0], labelpad=10)
         ax.set_ylabel(atributos[1], labelpad=10)
         ax.set_zlabel(atributos[2], labelpad=10)
-        
+    
+        # Adicionar legenda com mapeamento de rótulos
+        if legend_mapping:
+            unique_labels = dataframe[hue].unique()
+            legend_labels = [legend_mapping.get(label, label) for label in unique_labels]
+            legend1 = ax.legend(*scatter.legend_elements(), title=title_legend, labels=legend_labels, loc='upper right')
+            ax.add_artist(legend1)
+        else:
+            ax.legend(*scatter.legend_elements(), title=hue, loc='upper right')
+    
+        # Adicionar título
+        ax.set_title(title, fontsize=fontsize)
+    
+        # Adicionar texto à direita
         fig.text(0.85, 0.5, atributos[2], va='center', rotation='vertical', fontsize=fontsize)
     
-        legend1 = ax.legend(*ax.get_legend_handles_labels(), title='Grupo')
-        ax.add_artist(legend1)
-        
+        # Salvar figura se especificado
         if save_path is not None:
             plt.savefig(save_path, dpi=600, bbox_inches='tight')
     
         plt.show()
+
+
         
     def barplot_view(self, dataframe, x, y, hue=None, fontsize=14, save_path=None, figsize=(8, 5), title_legend='', xlabel='', ylabel='', dodge=True):
         sns.set_theme(style="white")
     
-        sns.set_palette(self.paleta)
+        sns.set_palette("tab10")
     
         plt.figure(figsize=figsize)
     
@@ -43,6 +57,32 @@ class Visualizacao:
     
         for p in ax.containers:
             ax.bar_label(p, label_type='edge', fontsize=fontsize, padding=2)
+    
+        plt.xlabel(xlabel, fontsize=fontsize)
+        plt.ylabel(ylabel, fontsize=fontsize)
+        plt.xticks(fontsize=fontsize)
+        plt.yticks(fontsize=fontsize)
+        legend = plt.legend(title=title_legend, fontsize=fontsize)
+        legend.get_title().set_fontsize(fontsize)
+        
+        if save_path is not None:
+            plt.savefig(save_path, dpi=600, bbox_inches='tight')
+            
+        plt.tight_layout()
+    
+        plt.show()
+
+    def barplot_view_procents(self, dataframe, x, y, hue=None, fontsize=14, save_path=None, figsize=(8, 5), title_legend='', xlabel='', ylabel='', dodge=True):
+        sns.set_theme(style="white")
+        sns.set_palette("tab10")
+    
+        plt.figure(figsize=figsize)
+    
+        ax = sns.barplot(x=x, y=y, hue=hue, data=dataframe, dodge=dodge);
+    
+        for p in ax.containers:
+            # labels = [f'{float(val):.2f}%' for val in dataframe[y]]
+            ax.bar_label(p, label_type='edge', fontsize=fontsize, padding=3, fmt=lambda x: f'{x :.2f}%')
     
         plt.xlabel(xlabel, fontsize=fontsize)
         plt.ylabel(ylabel, fontsize=fontsize)
@@ -102,5 +142,20 @@ class Visualizacao:
         
         if save_path:
             plt.savefig(save_path, dpi=600, bbox_inches='tight')
-            
+        plt.show()
+
+    def line_plot(self, data, title_plot='', xlabel='', ylabel='', legend_title='', save_path=None, fontsize=16):
+        plt.figure(figsize=(10,6))
+        ax = sns.lineplot(data=data, marker='o')  # 'T' transpõe as linhas para as colunas
+        # ax.title(title_plot)
+        ax.set_title(title_plot)
+        plt.xlabel(xlabel, fontsize=fontsize)
+        plt.xticks(range(10), fontsize=fontsize)
+        plt.yticks(fontsize=fontsize)
+        plt.ylabel(ylabel, fontsize=fontsize)
+        plt.ylim(0.5,0.8)
+        plt.legend(title=legend_title, loc='lower right')
+        plt.tight_layout() 
+        if save_path:
+            plt.savefig(save_path, dpi=600, bbox_inches='tight')
         plt.show()
