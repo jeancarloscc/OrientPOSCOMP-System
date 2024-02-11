@@ -12,7 +12,7 @@ from sklearn.metrics import (
     confusion_matrix, roc_auc_score, roc_curve, precision_recall_curve
 )
 from sklearn.model_selection import (
-    train_test_split, StratifiedKFold, GridSearchCV, RandomizedSearchCV, KFold, cross_val_score
+    train_test_split, StratifiedKFold, GridSearchCV, RandomizedSearchCV, KFold, cross_val_score, StratifiedShuffleSplit
 )
 from sklearn.cluster import KMeans
 from sklearn.tree import DecisionTreeClassifier, export_graphviz

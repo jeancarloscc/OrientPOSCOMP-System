@@ -46,7 +46,7 @@ class Visualizacao:
 
 
         
-    def barplot_view(self, dataframe, x, y, hue=None, fontsize=14, save_path=None, figsize=(8, 5), title_legend='', xlabel='', ylabel='', dodge=True):
+    def barplot_view(self, dataframe, x, y, hue=None, fontsize=14, save_path=None, figsize=(8, 5), title_legend='', xlabel='', ylabel='', dodge=True, show_legend=True):
         sns.set_theme(style="white")
     
         sns.set_palette("tab10")
@@ -56,14 +56,19 @@ class Visualizacao:
         ax = sns.barplot(x=x, y=y, hue=hue, data=dataframe, dodge=dodge);
     
         for p in ax.containers:
-            ax.bar_label(p, label_type='edge', fontsize=fontsize, padding=2)
+            ax.bar_label(p, label_type='edge', fontsize=15, padding=2)
     
         plt.xlabel(xlabel, fontsize=fontsize)
         plt.ylabel(ylabel, fontsize=fontsize)
         plt.xticks(fontsize=fontsize)
         plt.yticks(fontsize=fontsize)
-        legend = plt.legend(title=title_legend, fontsize=fontsize)
-        legend.get_title().set_fontsize(fontsize)
+
+        for spine in ['top', 'right', 'bottom', 'left']:
+            ax.spines[spine].set_visible(False)
+        
+        if show_legend:
+            legend = plt.legend(title=title_legend, fontsize=fontsize)
+            legend.get_title().set_fontsize(fontsize)
         
         if save_path is not None:
             plt.savefig(save_path, dpi=600, bbox_inches='tight')
@@ -71,6 +76,7 @@ class Visualizacao:
         plt.tight_layout()
     
         plt.show()
+
 
     def barplot_view_procents(self, dataframe, x, y, hue=None, fontsize=14, save_path=None, figsize=(8, 5), title_legend='', xlabel='', ylabel='', dodge=True):
         sns.set_theme(style="white")
@@ -148,14 +154,36 @@ class Visualizacao:
         plt.figure(figsize=(10,6))
         ax = sns.lineplot(data=data, marker='o')  # 'T' transpõe as linhas para as colunas
         # ax.title(title_plot)
-        ax.set_title(title_plot)
+        ax.set_title(title_plot, fontsize=fontsize)
         plt.xlabel(xlabel, fontsize=fontsize)
         plt.xticks(range(10), fontsize=fontsize)
         plt.yticks(fontsize=fontsize)
         plt.ylabel(ylabel, fontsize=fontsize)
         plt.ylim(0.5,0.8)
-        plt.legend(title=legend_title, loc='lower right')
+        legend = plt.legend(title=legend_title, loc='lower right', fontsize=fontsize)
+        legend.get_title().set_fontsize(fontsize)
         plt.tight_layout() 
         if save_path:
             plt.savefig(save_path, dpi=600, bbox_inches='tight')
+        plt.show()
+
+    def plot_learning_curve(self, data, models, model_names, save_path=None):
+        # Cria uma figura com subplots para cada modelo
+        fig, axs = plt.subplots(2, 2, figsize=(14, 10))
+
+        for i, ax in enumerate(axs.flatten()):
+            model = models[i]
+            ax.plot(data[model + '_treino'], label='Treino')
+            ax.plot(data[model + '_teste'], label='Teste')
+            ax.set_title(model_names[i], fontsize=18)
+            ax.set_xlabel('Fold', fontsize=14)  # Nomeia o eixo x
+            ax.set_ylabel('Acurácia', fontsize=14)  # Nomeia o eixo y
+            ax.legend(fontsize=14)
+            ax.tick_params(axis='both', which='major', labelsize=16) 
+    
+        # Ajusta o layout para evitar sobreposição
+        plt.tight_layout()
+        if save_path:
+            plt.savefig(save_path, dpi=600, bbox_inches='tight')
+            
         plt.show()

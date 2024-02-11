@@ -1,0 +1,11 @@
+param_activation,param_alpha,param_batch_size,param_hidden_layer_sizes,param_max_iter,param_solver,mean_test_score,mean_train_score
+logistic,0.0001,300,"(100,)",100,lbfgs,63.84%,65.09%
+logistic,0.001,300,"(100,)",100,lbfgs,63.64%,65.20%
+logistic,0.0001,300,"(100,)",200,adam,63.61%,63.77%
+tanh,0.01,200,"(200, 100, 50)",100,adam,63.59%,66.83%
+logistic,0.001,200,"(200, 100, 50)",100,adam,63.58%,63.20%
+logistic,0.001,300,"(100,)",200,adam,63.58%,63.79%
+logistic,0.001,100,"(200, 100, 50)",100,adam,63.53%,63.89%
+logistic,0.01,300,"(100,)",200,adam,63.51%,63.63%
+logistic,0.001,200,"(200, 100, 50)",200,adam,63.49%,63.14%
+logistic,0.0001,200,"(100,)",200,adam,63.46%,63.70%

@@ -16,8 +16,8 @@ class ClassifierWrapper:
         self.best_estimator = None
         self.cv_results_ = None
 
-    def grid_search(self, x_train, y_train, cv=10, n_jobs=-1, verbose=1):
-        clf_cv = GridSearchCV(estimator=self.classifier, param_grid=self.parameters, scoring="accuracy", n_jobs=n_jobs, verbose=verbose, cv=cv)
+    def grid_search(self, x_train, y_train, cv=10, n_jobs=-1):
+        clf_cv = GridSearchCV(estimator=self.classifier, param_grid=self.parameters, scoring='accuracy', n_jobs=n_jobs, cv=cv, return_train_score=True)
         clf_cv.fit(x_train, y_train)
         
         self.best_params = clf_cv.best_params_
@@ -75,6 +75,13 @@ class ClassifierWrapper:
         #     print(f"   Treino - Acurácia: {train_score:.4f}")
         #     print(f"   Teste  - Acurácia: {test_score:.4f}")
         #     print("=" * 40)
-
         
         return resultados
+
+
+    def gerar_matriz_confusao(classifier, params, x_train, x_test, y_train, y_test):
+        clf = classifier(**params)
+        clf.fit(x_train, y_train)
+        y_pred = clf.predict(x_test)
+        conf_mat = confusion_matrix(y_test, y_pred)
+        return conf_mat
