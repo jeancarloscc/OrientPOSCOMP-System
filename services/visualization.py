@@ -56,7 +56,7 @@ class Visualizacao:
         ax = sns.barplot(x=x, y=y, hue=hue, data=dataframe, dodge=dodge);
     
         for p in ax.containers:
-            ax.bar_label(p, label_type='edge', fontsize=15, padding=2)
+            ax.bar_label(p, label_type='edge', fontsize=18, padding=2)
     
         plt.xlabel(xlabel, fontsize=fontsize)
         plt.ylabel(ylabel, fontsize=fontsize)
@@ -69,11 +69,11 @@ class Visualizacao:
         if show_legend:
             legend = plt.legend(title=title_legend, fontsize=fontsize)
             legend.get_title().set_fontsize(fontsize)
+
+        plt.tight_layout()
         
         if save_path is not None:
-            plt.savefig(save_path, dpi=600, bbox_inches='tight')
-            
-        plt.tight_layout()
+            plt.savefig(save_path, dpi=600, bbox_inches='tight', format='pdf')
     
         plt.show()
 
