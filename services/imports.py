@@ -23,8 +23,6 @@ from sklearn.svm import SVC, LinearSVC, NuSVC
 from sklearn.neighbors import KNeighborsClassifier
 import services.function as sf
 import seaborn.objects as so
-import import_ipynb
-import services.especialidades as esp
 import datetime
 import math
 from textwrap import wrap
