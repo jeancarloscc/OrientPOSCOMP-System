@@ -1,4 +1,4 @@
-# Versão do SAIOA: :gear: 1.0.0
+# Versão do SAIOA: :gear: 2.0.0
 # :computer: Sistema Automatizado e Inteligênte de Orientação Acadêmico 
 
 Este Sistema Automatizado e Inteligente de Orientação Acadêmico (SAIOA) é destinado aos estudantes que desejam cursar uma pós-graduação em computação no Brasil, mas não têm certeza de qual área de pesquisa ou especialidade seguir durante o mestrado e doutorado. O SAIOA usa técnicas de inteligência artificial e aprendizado de máquina para prever a sua linha de pesquisa, de acordo com a nota do POSCOMP.
