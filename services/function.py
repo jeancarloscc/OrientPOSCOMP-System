@@ -1,8 +1,5 @@
 import pandas as pd
 import re
-from sklearn.model_selection import GridSearchCV
-from sklearn.metrics import make_scorer
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
 class Function():
     def substituir_palavras(df, palavras_a_substituir, palavra_substituta):
