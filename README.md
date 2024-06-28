@@ -26,7 +26,7 @@ Install OrientPOSCOMP-System with terminal
   git clone git@github.com:jeancarloscc/OrientPOSCOMP-System.git
   cd OrientPOSCOMP-System
   pip install -r environment.yml
-  open main.py
+  open main.ipynb
 ```
     
 ## Autores
