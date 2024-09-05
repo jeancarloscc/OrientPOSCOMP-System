@@ -1,3 +1,4 @@
 # Ignorar a pasta build
 dados/
+.ipynb_checkpoints/
 media_nacional.png

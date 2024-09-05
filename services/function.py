@@ -1,10 +1,8 @@
 import pandas as pd
 import re
-from sklearn.model_selection import GridSearchCV
-from sklearn.metrics import make_scorer
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+from datetime import date
 
-class Function():
+class Function:
     def substituir_palavras(df, palavras_a_substituir, palavra_substituta):
         # Para cada palavra a ser substituída
         for palavra in palavras_a_substituir:
@@ -14,4 +12,9 @@ class Function():
     
         # Retorna o novo DataFrame com as palavras substituídas
         return df
-
+    
+    def calculate_age(row):
+        birth_year = int(row["idade"].split("-")[0])  # Extrai o ano de nascimento a partir da data de nascimento
+        exam_year = row["ano"]  # Obtém o ano da realização da prova
+        age = exam_year - birth_year
+        return age
